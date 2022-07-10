@@ -5,8 +5,10 @@
   "refmap": "examplemod.refmap.json",
   "mixins": [
   ],
-  "client":[
-    "ExampleMixin"
+  "client": [
+    "BiomeColorsMixin",
+    "ExampleMixin",
+    "FoliageColorMixin"
   ],
   "injectors": {
     "defaultRequire": 1
